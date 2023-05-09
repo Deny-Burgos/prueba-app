@@ -1,0 +1,36 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+}
+
+body {
+    margin: 0;
+    background-color: #0f172a;
+    font-family: 'Lato', sans-serif;
+    color: #f8fafc;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+}
+ul{
+    margin: 0;
+    list-style: none;
+    padding: 1rem;
+    background-color: red;
+    width: 100%;
+    border-radius: 0.5rem;
+    max-height: 25rem;
+    /* overflow funciona con height */
+    overflow: auto;
+    /* modificar barra de desplazamiento */
+
+}
+
+.task{
+    display: flex;
+}
